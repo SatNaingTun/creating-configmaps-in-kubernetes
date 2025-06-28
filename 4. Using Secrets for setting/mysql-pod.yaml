@@ -15,5 +15,5 @@ spec:
           value: MYSQL_ROOT_PASSWORD
         - name: MYSQL_USER
           value: john
-        - name: MYSQL_ROOT_PASSWORD
+        - name: MYSQL_PASSWORD
           value: johnpassword
