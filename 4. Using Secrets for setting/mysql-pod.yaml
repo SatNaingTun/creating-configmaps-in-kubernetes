@@ -6,14 +6,14 @@ metadata:
     name: mysql
 spec:
   containers:
-  - name: mysql-container
-    image: mysql
-    ports:
+    - name: mysql-container
+      image: mysql
+      ports:
       - containerPort: 3306
-    env:
-      - name: MYSQL_ROOT_PASSWORD
-        value: MYSQL_ROOT_PASSWORD
-      - name: MYSQL_USER
-        value: john
-      - name: MYSQL_ROOT_PASSWORD
-        value: johnpassword
+      env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: MYSQL_ROOT_PASSWORD
+        - name: MYSQL_USER
+          value: john
+        - name: MYSQL_ROOT_PASSWORD
+          value: johnpassword
